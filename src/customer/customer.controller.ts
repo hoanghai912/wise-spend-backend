@@ -1,5 +1,5 @@
 import { Body, Controller, Get, HttpStatus, Post, Res, Delete, Param, Put } from '@nestjs/common';
-import { CreateCustomerDto } from 'src/dto/create-customer.dto';
+import { CreateCustomerDto } from '../dto/create-customer.dto';
 import { CustomerService } from './customer.service';
 import { response } from 'express';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
